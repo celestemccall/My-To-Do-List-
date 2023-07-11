@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-1{
+  width: 110%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/dream-big-work-hard-5556539.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 50px;
+}
+
+.slide-1 h1{
+  font-size: 55px;
+  font-weight: 500;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 15%;
+  position: absolute;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  bottom: 100px;
+ 
+}
+
+.slide-2{
+  width: 110%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/dream-big-work-hard-5556539.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 50px;
+}
+
+
+    .app {
+      background-color: #fff;
+      width: 80%;
+      height: 70vh;
+      border: 5px solid #abcea1;
+      border-radius: 8px;
+      padding: 15px;
+      overflow-y: scroll;
+      position: absolute;
+      bottom: -750px;
+      justify-content: center;
+      align-items: center;
+      right: 8%;
+     
+      
+     
+    }
+ 
+
+  .app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  #addNew {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(171, 206, 161, 0.35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 14px ;
+  }
+  
+  .fa-plus {
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    text-align: center;
+    position: relative;
+    bottom: -14px;
+  }
+  
+  #tasks div {
+    border: 3px solid #abcea1;
+    background-color: #e2eede;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+  }
+
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: red;
+  
+  }
+
+
+  h2{
+    background-color: transparent;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    top: 0;
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    
+    }
+    
+    h3{
+      font-size: 50px;
+    }
+
+    /*h4{
+
+    }
+
+    h5{
+      
+    }
+  /*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
